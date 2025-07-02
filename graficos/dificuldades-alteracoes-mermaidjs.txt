@@ -1,0 +1,21 @@
+flowchart LR
+    n2["Falha ou dificuldade permanente no pedido de alteração dos dados pessoais<br>"] --> n1["Existe <br>estabelecimento <br>físico?<br>"]
+    n1 -- Sim --> n3["Efetuar o pedido no respetivo estabelecimento físico <br>"]
+    n4["Existe um <br>contacto telefónico <br>de apoio ou suporte <br>cliente?<br>"] -- Sim --> n5["Ligar e questionar qual a melhor forma de proceder à alteração dos seus dados <br>"]
+    n1 -- Não --> n4
+    n4 -- Não --> n6["Existe um endereço <br>de correio eletrónico <br>para o qual pode enviar <br>questões? <br>"]
+    n6 -- Sim --> n7["Questionar qual a melhor forma de proceder ou efetuar o pedido através de mensagem de correio eletrónico<br>"]
+    n6 -- Não --> n8["Existe uma <br>morada para a qual <br>possa enviar uma <br>carta?<br>"]
+    n8 -- Sim --> n9["Enviar uma carta registada para a morada, preferencialmente a sede, anexando o seu pedido.<br>"]
+    n8 -- Não --> n10["É possível <br>identificar a contraparte e<br>pretende recorrer a uma <br>via judicial?<br>"]
+    n10 -- Não --> n11["Desistir do processo de alteração ou encontrar outra alternativa viável <br>"]
+    n10 -- Sim --> n12["Consultar um advogado para iniciar uma ação judicial contra a outra parte<br>"]
+
+    n2@{ shape: event}
+    n1@{ shape: decision}
+    n4@{ shape: decision}
+    n6@{ shape: decision}
+    n8@{ shape: decision}
+    n10@{ shape: decision}
+
+
