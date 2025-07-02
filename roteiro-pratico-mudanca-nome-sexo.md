@@ -1884,8 +1884,4 @@ Para maior facilidade na leitura e interpretação do roteiro pode encontrar aqu
 - *gov.pt*, tipicamente refere-se à aplicação móvel de identificação e autenticação do Estado Português.
 - *q.b.*, equivalente a "quanto baste".
 
-
-
-### Bibliografia
-
-Conteúdos consultados entre os meses de janeiro e junho de 2025
+# 
