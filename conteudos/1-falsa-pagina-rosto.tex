@@ -1,0 +1,27 @@
+%-----------------------
+% FALSA PÁGINA DE ROSTO
+%-----------------------
+\begin{titlepage}
+	\thispagestyle{empty}
+	
+	% IMAGEM DE FUNDO
+	\begin{tikzpicture}[remember picture,overlay]
+		\node at (current page.center)
+		{\includegraphics[width=\paperwidth,height=\paperheight]{\DocFeatured}};
+	\end{tikzpicture}
+	
+	
+	% TÍTULO, SUBTÍTULO, AUTOR E DATA
+	\vfill
+	\begin{center}
+		{\FontRousseau \Huge \color{white} \contour{defaultContour} \DocTitle \par}
+		\vspace{10pt}
+		{\FontAndadaSC \color{white} \fcolorbox{black}{black}  \DocSubtitle \par}
+		\vspace{1cm}
+		{\FontAndadaSC \small \color{white} \itshape \contour{defaultContour} \DocAuthor \par}
+		\vspace{2cm}
+		{\FontAndadaSC \large \color{white} \contour{defaultContour} \DocDate \par}
+	\end{center}
+	
+	\newpage
+\end{titlepage}

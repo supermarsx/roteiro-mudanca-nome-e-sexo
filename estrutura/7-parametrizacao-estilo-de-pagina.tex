@@ -1,0 +1,52 @@
+%------------------------------------
+% PARAMETRIZAÇÃO DO ESTILO DE PÁGINA
+%------------------------------------
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhf[HL]{\FontRousseau\small\DocTitle}
+\fancyhf[HR]{\rightmark}
+\fancyfoot[C]{%
+	\tikz[baseline={(0,0.5ex)}]{%
+		\node[
+		draw=black,            % COR DA MOLDURA
+		line width=4pt,        % ESPESSURA DA LINHA
+		rounded corners=1pt,   % ARREDONDAMENTO
+		fill=pagebg,            % COR DE FUNDO
+		inner sep=5pt          % ENCHIMENTO
+		] {\thepage};
+	}%
+}
+
+\newlength\bannerheight
+\setlength\bannerheight{52mm}  
+
+\newlength\headerheight
+\setlength\headerheight{30mm}
+
+\AtBeginShipout{%
+	\ifnum\value{page}>1\relax
+	\AddToShipoutPictureBG{%
+		\begin{tikzpicture}[remember picture,overlay]
+			% RODAPÉ
+			\node[
+			anchor=south,
+			xshift=-\hoffset,
+			yshift=-\bannerheight
+			] at (current page.south) {%
+				\includegraphics[width=\paperwidth]{\DocBanner}%
+			};
+			% CABEÇALHO
+			\node[
+			anchor=north,
+			xshift=-\hoffset,
+			yshift=\headerheight
+			] at (current page.north) {%
+				\includegraphics[width=\paperwidth]{\DocHeader}%
+			};
+		\end{tikzpicture}%
+	}%
+	\else
+	\AddToShipoutPictureBG{}% SEM BANDA NAS PÁGINAS 1 E 2
+	\fi
+}
