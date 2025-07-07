@@ -30,3 +30,7 @@ Combinando check-lists, prazos, custos indicativos, modelos de documentos e liga
 - **Dimensões**: A4 Standard (21×29.7 cm)
 - **Idioma**: Português
 - **Mês e Ano**: Junho 2025
+
+## Licença
+
+Colocado no Domínio Público.
