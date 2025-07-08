@@ -3,10 +3,11 @@
 Opções de descarga em formato (PDF e ZIP):
 
 [![Descarga 1ª Edição comum](https://img.shields.io/badge/DESCARREGAR-1%C2%AA%20Edi%C3%A7%C3%A3o%20comum-white?style=for-the-badge)](https://raw.githubusercontent.com/supermarsx/roteiro-mudanca-nome-e-sexo/refs/heads/main/distribuicao/edicao-comum.pdf)
-
 [![Descarga 1ª Edição Tema escuro](https://img.shields.io/badge/DESCARREGAR-1%C2%AA%20Edi%C3%A7%C3%A3o%20tema%20escuro-black?style=for-the-badge)](https://raw.githubusercontent.com/supermarsx/roteiro-mudanca-nome-e-sexo/refs/heads/main/distribuicao/edicao-tema-escuro.pdf)
 
 [![Descarga do Repositório](https://img.shields.io/badge/DESCARREGAR-Reposit%C3%B3rio%20completo-blue?style=for-the-badge)](https://github.com/supermarsx/roteiro-mudanca-nome-e-sexo/archive/refs/heads/main.zip)
+
+[![Conversar com a IA no ChatGPT](https://img.shields.io/badge/CONVERSAR-COM%20A%20IA%20NO%20CHATGPT-green?style=for-the-badge)](https://chatgpt.com/g/g-68504ffb04848191a5df58246b201561-guia-para-a-mudanca-de-nome-e-sexo)
 
 ![Imagem de Capa](https://github.com/user-attachments/assets/d51a61bf-91fd-4264-b83c-3d3373edb6ce)
 
