@@ -79,11 +79,11 @@ Combinando check-lists, prazos, custos indicativos, modelos de documentos e liga
    Explora os **modelos** e **formularios** para personalizar ofícios/cartas e segue mais abaixo a secção **“Compilar a partir do código-fonte”**.
 
 3. **Queres falar com uma IA sobre o guia?**
-   Vê a pasta **[gpt-personalizado/](./gpt-personalizado/)** (há um atalho “Conversar com a IA no ChatGPT” no topo do README). ([GitHub](https://github.com/supermarsx/roteiro-mudanca-nome-e-sexo))
+   Vê a pasta **[gpt-personalizado/](./gpt-personalizado/)** (há um atalho “Conversar com a IA no ChatGPT” no topo do README).
 
 ## 🗂️ Estrutura do repositório
 
-> Panorama mínimo para te orientares. (Diretórios principais visíveis no topo do repositório.) ([GitHub](https://github.com/supermarsx/roteiro-mudanca-nome-e-sexo))
+> Panorama mínimo para te orientares. (Diretórios principais visíveis no topo do repositório.)
 
 * **[anexos/](./anexos/):** anexos e materiais de suporte para o roteiro.
 * **[conteudos/](./conteudos/):** texto e secções base do manual em LaTeX.
