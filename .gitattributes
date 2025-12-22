@@ -1,0 +1,4 @@
+# Exclude RTF files from GitHub language statistics
+# See: https://github.com/github/linguist#using-gitattributes
+# This prevents .rtf files from being counted as a separate language in repository statistics
+*.rtf linguist-detectable=false
